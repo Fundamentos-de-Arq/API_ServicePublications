@@ -12,11 +12,7 @@ public class BaseResponse<T>
         Message = message;
     }
     protected BaseResponse(T resource)
-    {
-        Success = true;
-        Resource = resource;
-    }
-
+    
     
     
 }
